@@ -1,3 +1,5 @@
 node_modules
 data/users.json
 data/.jwt-secret
+.env
+.vercel
