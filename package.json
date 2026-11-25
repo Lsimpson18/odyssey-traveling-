@@ -1,0 +1,16 @@
+{
+  "name": "odyssey-travel-app",
+  "version": "1.0.0",
+  "description": "Odyssey Travel Co - welcome and login screen with a small Node backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
