@@ -82,6 +82,7 @@ function requireAuth(req, res, next) {
 
 // ---------- app ----------
 const app = express();
+app.set('trust proxy', 1);
 app.disable('x-powered-by');
 app.use(express.json({ limit: '10kb' }));
 app.use((req, res, next) => {
